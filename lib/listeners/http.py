@@ -7,6 +7,8 @@ import ssl
 import time
 import copy
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from pydispatch import dispatcher
 from flask import Flask, request, make_response, send_from_directory
 # Empire imports
